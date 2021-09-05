@@ -8,7 +8,7 @@ Search Input Text
     Input Text        xpath://input[@id="search"]      What I'm wrong?
     Press Keys        xpath://input[@id="search"]      ENTER
     Click Element     xpath://img[@id="img"]
-    Sleep     5s
+    Sleep     30s
     Close Browser 
 
 *** Test Cases ***
