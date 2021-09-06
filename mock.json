@@ -1,0 +1,113 @@
+{
+  "company": [
+    {
+      "name": "abd",
+      "location": "africa",
+      "id": 1
+    },
+    {
+      "name": "collman",
+      "location": "Koh Pich",
+      "id": 2
+    },
+    {
+      "name": "nightman",
+      "location": "England",
+      "id": 3
+    }
+  ],
+  "staff": [
+    {
+      "id": 1,
+      "name": "Jo",
+      "phone": "0987654321"
+    },
+    {
+      "id": 2,
+      "name": "Jo",
+      "phone": "0987654321"
+    }
+  ],
+  "room": [
+    {
+      "id": 1,
+      "name": "Jo",
+      "flore": "1st"
+    }
+  ],
+  "subjects":[
+    {
+      "id":1,
+      "name":"math"
+    },
+    {
+      "id":2,
+      "name":"reading"
+    },
+    {
+      "id":3,
+      "name":"english"
+    },
+    {
+      "id":4,
+      "name":"science"
+    },
+    {
+      "id":5,
+      "name":"social studies"
+    }
+  ],
+  "exams":[
+    {
+      "id":1,
+      "name":"division",
+      "subjectId":1
+    },
+    {
+      "id":2,
+      "name":"fractions",
+      "subjectId":1
+    },
+    {
+      "id":3,
+      "name":"word problems",
+      "subjectId":1
+    },
+    {
+      "id":4,
+      "name":"time for andrew exam",
+      "subjectId":2
+    },
+    {
+      "id":5,
+      "name":"redwall exam",
+      "subjectId":2
+    },
+    {
+      "id":6,
+      "name":"parts of speech",
+      "subjectId":3
+    },
+    {
+      "id":7,
+      "name":"short story",
+      "subjectId":3
+    },
+    {
+      "id":8,
+      "name":"the scientific method",
+      "subjectId":4
+    },
+    {
+      "id":9,
+      "name":"branches of federal government",
+      "subjectId":5
+    },
+    {
+      "id":10,
+      "name":"federal elections",
+      "subjectId":5
+    }
+  ]
+  
+}
