@@ -15,12 +15,20 @@ Login to NCS
 NCS Dashboard
     Open Browser        https://web-ncs-dev.sorakh.app/auth/login       chrome
     Maximize Browser Window
-    Input Text        xpath://input[@name="username"]     nbc-admin-samak
+    Input Text           xpath://input[@name="username"]     nbc-admin-samak
     Input Password      xpath://input[@name="password"]     aA12345@
     Press Keys          xpath://input[@name="password"]     ENTER
     Sleep   5s
     Wait Until Element Is Enabled       xpath://div[@class="v-list-item__title"]
-    Element Text Should Be              xpath://div[@class="v-list-item__title"]        Dashboard
+    Element Text Should Be              xpath://div[@class="v-list-item__title"]        NBC
+    Wait Until Element Is Enabled       xpath://div[@class="v-list-item__content"]
+    Element Text Should Be             xpath://div[@class="v-list-item__title"]    NBC
+    Element Text Should Be             xpath://div[@class="v-list-item__subtitle"]     nbc-admin-samak
+    Wait Until Element Is Enabled        xpath://div[@class="v-list-item__title"]
+    Click Element                       xpath://div[@class="v-list-item__subtitle"]
+    Sleep   5s
+#    Wait Until Element Is Enabled        xpath://div[@class="v-list-item__title"]
+    Click Element     xpath://div[@class="v-list-item__title"]
 
 *** *** Test Cases ***
 TC1 Login
