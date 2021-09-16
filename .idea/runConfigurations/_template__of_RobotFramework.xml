@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="true" type="RobotFramework" factoryName="RobotFramework" singleton="false">
+    <option name="target" value="" />
+    <option name="args">
+      <list />
+    </option>
+    <option name="env" />
+    <option name="workingDir" />
+    <option name="makeSuite" value="true" />
+    <method v="2" />
+  </configuration>
+</component>

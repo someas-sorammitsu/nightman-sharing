@@ -4,7 +4,7 @@ Library    Selenium2Library
 Login to NCS
     Open Browser        https://web-ncs-dev.sorakh.app/auth/login       chrome
     Maximize Browser Window
-    Wait Until Element Is Enabled       //div[@class="text-h6"]
+    Wait Until Element Is Enabled       xpath://div[@class="text-h6"]
     Element Text Should Be         xpath://div[@class="text-h6"]        Welcome
     Element Text Should Be         xpath://div[@class="text-h5"]        Check Clearing System
     Input Text        xpath://input[@name="username"]     nbc-admin-samak

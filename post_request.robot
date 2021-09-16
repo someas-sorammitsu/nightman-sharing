@@ -8,6 +8,6 @@ ${path}          company
 
 TC1
     Create Session      mysession         ${base_url}
-    ${data}=        Create Dictionary     name=Hellooo    location=CCC
+    ${data}=        Create Dictionary     name=Hellooo  location=CCC
     ${header}=     Create Dictionary      Content-Type=application/json
     ${response}=   Post ON Session     mysession     ${path}         json=${data}  expected_status=anything
