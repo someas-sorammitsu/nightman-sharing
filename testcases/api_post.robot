@@ -19,6 +19,7 @@ sharing
     ...		   "name": "Friend",
     ...        "location": "USA"
     ...		}
+    
     log    ${json}
     ${response}=     Create POST Request with Json Data       ${mock_url}          ${url_path}         ${json}     ${headers}
     log    ${response.json()}
